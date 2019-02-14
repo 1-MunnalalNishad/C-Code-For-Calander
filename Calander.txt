@@ -1,0 +1,7 @@
+   public Form1()
+    {
+        InitializeComponent();
+
+        calendar1.CalendarDate = DateTime.Now;
+        calendar1.CalendarView = CalendarViews.Month;
+    } 
